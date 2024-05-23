@@ -1,12 +1,16 @@
 # NTUA_Computer_System_Performance
 NTUA ECE CSPERF 2023
-## Network Simulation with Task Clustering
-This Python script simulates a network environment with task clustering. It categorizes incoming tasks into three clusters using a clustering algorithm and simulates their processing through various network resources.
+## Προσομοίωση Δικτύου με Ομαδοποίηση Εργασιών
+Αυτό το σενάριο Python προσομοιώνει ένα περιβάλλον δικτύου με ομαδοποίηση εργασιών. Κατηγοριοποιεί εισερχόμενες εργασίες σε τρεις ομάδες χρησιμοποιώντας ένα αλγόριθμο ομαδοποίησης και προσομοιώνει την επεξεργασία τους μέσω διαφόρων πόρων δικτύου.
 
-### Description
-The simulation includes the following components:
+### Περιγραφή
+Η προσομοίωση περιλαμβάνει τα ακόλουθα στοιχεία:
 
-CPU: Tasks are processed using Processor Sharing.
-Disk: Tasks requiring disk access are queued and processed in a first-in, first-out (FIFO) manner.
-Outgoing Link: Once processed, tasks are sent out through the outgoing link.
-The simulation tracks the response times and throughput of tasks, as well as resource utilization and the percentage of tasks that need to backtrack due to resource limitations.
+Επεξεργαστής (CPU): Οι εργασίες επεξεργάζονται χρησιμοποιώντας τη μέθοδο Processor Sharing.
+Δίσκος (Disk): Οι εργασίες που απαιτούν πρόσβαση στο δίσκο τοποθετούνται σε ουρά και επεξεργάζονται με τη μέθοδο first-in, first-out (FIFO).
+Εξερχόμενος Σύνδεσμος (Outgoing Link): Αφού επεξεργαστούν, οι εργασίες στέλνονται μέσω του εξερχόμενου συνδέσμου.
+Η προσομοίωση παρακολουθεί τους χρόνους απόκρισης και τη ρυθμαπόδοση των εργασιών, καθώς επίσης και την αποδοτικότητα των πόρων και το ποσοστό των εργασιών που χρειάζεται να επιστρέψουν λόγω περιορισμών των πόρων.
+
+### Συντελέστές
+Γεωργακόπουλος Γεώργιος 
+Κωνσταντίνα Παπία
